@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mm"
+        android:title="mm"/>
+    <item
+        android:id="@+id/cm"
+        android:title="cm"/>
+    <item
+        android:id="@+id/m"
+        android:title="m"/>
+    <item
+        android:id="@+id/km"
+        android:title="km"/>
+    <item
+        android:id="@+id/yd"
+        android:title="yd"/>
+    <item
+        android:id="@+id/ft"
+        android:title="ft"/>
+    <item
+        android:id="@+id/inch"
+        android:title="inch"/>
+    <item
+        android:id="@+id/mile"
+        android:title="mile"/>
+    <item
+        android:id="@+id/chi"
+        android:title="尺"/>
+
+</menu>

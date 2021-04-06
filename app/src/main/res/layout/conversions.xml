@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ListView
+        android:layout_weight="12"
+        android:id="@+id/lv"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+    </ListView>
+
+     <LinearLayout
+        android:layout_weight="1.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:windowSoftInputMode="stateVisible|adjustResize"
+        >
+
+
+        <EditText
+            android:id="@+id/Et_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="bottom"
+            android:hint="please enter the number"
+            android:inputType="numberDecimal"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:dropDownVerticalOffset="40dp">
+        </Spinner>
+     </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LL_1"
+            android:layout_weight="3.8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/unitconverter_gvew_item_background"
+            >
+                <GridView
+                    android:id="@+id/GV_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:numColumns="5"
+                    android:columnWidth="0dp"
+                    android:stackFromBottom="true"
+                    android:choiceMode="multipleChoice"
+                    >
+                </GridView>
+        </LinearLayout>
+
+</LinearLayout>
+
